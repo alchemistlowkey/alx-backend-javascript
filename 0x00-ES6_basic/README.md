@@ -1,12 +1,12 @@
-ES6 Basics
+# ES6 Basics
 
 https://intranet.alxswe.com/concepts/852
 
 https://intranet.alxswe.com/concepts/542
 
-Resources
+## Resources
 
-Read or watch:
+### Read or watch:
 
 https://www.w3schools.com/js/js_es6.asp
 
@@ -20,7 +20,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest
 
 https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4
 
-Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 What ES6 is
@@ -33,7 +33,7 @@ String templating in ES6
 Object creation and their properties in ES6
 Iterators and for-of loops
 
-Requirements
+## Requirements
 General
 
 All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
@@ -52,33 +52,25 @@ Your code will be analyzed using the linter ESLint along with specific rules tha
 
 All of your functions must be exported
 
-Setup
+## Setup
 Install NodeJS 12.11.x
 (in your home directory):
 
 ```
-
 curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-
 sudo bash nodesource_setup.sh
-
 sudo apt install nodejs -y
-
 ```
 
 ```
-
 nodejs -v
-
 ```
 
 ```
-
 npm -v
-
 ```
 
-Install Jest, Babel, and ESLint
+## Install Jest, Babel, and ESLint
 in your project directory, install Jest, Babel and ESList by using the supplied package.json and run npm install.
 
 ## Configuration files
