@@ -1,37 +1,26 @@
-# ES6 Basics
-
-https://intranet.alxswe.com/concepts/852
-
-https://intranet.alxswe.com/concepts/542
+# ES6 Promises
 
 ## Resources
-
 ### Read or watch:
 
-https://www.w3schools.com/js/js_es6.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
+https://web.dev/articles/promises
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
-
-https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-What ES6 is
-New features introduced in ES6
-The difference between a constant and a variable
-Block-scoped variables
-Arrow functions and function parameters default to them
-Rest and spread function parameters
-String templating in ES6
-Object creation and their properties in ES6
-Iterators and for-of loops
+Promises (how, why, and what)
+How to use the then, resolve, catch methods
+How to use every method of the Promise object
+Throw / Try
+The await operator
+How to use an async function
 
 ## Requirements
 General
@@ -77,6 +66,7 @@ in your project directory, install Jest, Babel and ESList by using the supplied 
 Add the files below to your project directory
 
 ### package.json
+
 ```
 {
   "scripts": {
@@ -100,6 +90,7 @@ Add the files below to your project directory
 ```
 
 ### babel.config.js
+
 ```
 module.exports = {
   presets: [
@@ -115,7 +106,28 @@ module.exports = {
 };
 ```
 
+### utils.js
+Use when you get to tasks requiring uploadPhoto and createUser.
+
+```
+export function uploadPhoto() {
+  return Promise.resolve({
+    status: 200,
+    body: 'photo-profile-1',
+  });
+}
+
+
+export function createUser() {
+  return Promise.resolve({
+    firstName: 'Guillaume',
+    lastName: 'Salva',
+  });
+}
+```
+
 ### .eslintrc.js
+
 ```
 module.exports = {
   env: {
@@ -156,3 +168,20 @@ module.exports = {
 
 Finally…
 Don’t forget to run npm install from the terminal of your project folder to install all necessary project dependencies.
+
+### Response Data Format
+#### uploadPhoto returns a response with the format
+```
+{
+  status: 200,
+  body: 'photo-profile-1',
+}
+```
+
+#### createUser returns a response with the format
+```
+{
+  firstName: 'Guillaume',
+  lastName: 'Salva',
+}
+```
