@@ -1,7 +1,5 @@
 # ES6 Classes
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/817248fb77fb5c2cef3f.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240307%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240307T115158Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c5d653ab30e1bece6e40f25e9bfba641c250592531a093d8582e99059568e567
-
 ## Resources
 - [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [Metaprogramming](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/#symbolspecies)
