@@ -134,6 +134,3 @@ module.exports = {
   }
 };
 ```
-
-Finally…
-Don’t forget to run `npm install` from the terminal of your project folder to install all necessary project dependencies.
