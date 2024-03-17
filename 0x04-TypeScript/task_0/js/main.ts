@@ -1,25 +1,25 @@
 interface Student {
-  firstName: string
-  lastName: string
-  age: number
-  location: string
+  firstName: string;
+  lastName: string;
+  age: number;
+  location: string;
 }
 
 const student1: Student = {
-  firstName: 'Haochen'
-  lastName: 'Long'
-  age: 16
-  location: 'Throne of Seal'
-}
+  firstName: 'Haochen',
+  lastName: 'Long',
+  age: 16,
+  location: 'Throne of Seal',
+};
 
-const student1: Student = {
-  firstName: 'Hou'
-  lastName: 'Yuhao'
-  age: 15
-  location: 'Soul Land'
-}
+const student2: Student = {
+  firstName: 'Hou',
+  lastName: 'Yuhao',
+  age: 15,
+  location: 'Soul Land',
+};
 
-const studentsList: Student[] = [student1, student2]
+const studentsList: Student[] = [student1, student2];
 
 const renderTable = (students: Student[]) => {
   const table = document.createElement("table");
