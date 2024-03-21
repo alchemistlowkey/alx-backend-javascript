@@ -1,24 +1,24 @@
 # ES6 Basics
 
-- https://intranet.alxswe.com/concepts/852
+- [JavaScript programming](https://intranet.alxswe.com/concepts/852)
 
-- https://intranet.alxswe.com/concepts/542
+- [Software Linter](https://intranet.alxswe.com/concepts/542)
 
 ## Resources
 
 ### Read or watch:
 
-- https://www.w3schools.com/js/js_es6.asp
+- [ECMAScript 6 - ECMAScript 2015](https://www.w3schools.com/js/js_es6.asp)
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
+- [Statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+- [Rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 
-- https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4
+- [Javascript ES6 — Iterables and Iterators](https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
