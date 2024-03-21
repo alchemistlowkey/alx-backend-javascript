@@ -1,4 +1,6 @@
 # ES6 Basics
+## Concepts
+For this project, we expect you to look at these concepts:
 
 - [JavaScript programming](https://intranet.alxswe.com/concepts/852)
 
