@@ -21,11 +21,11 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ## Requirements
 General
 - All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
-- Allowed editors: vi, vim, emacs, Visual Studio Code
+- Allowed editors: `vi, vim, emacs, Visual Studio Code`
 - All your files should end with a new line
-- A README.md file, at the root of the folder of the project, is mandatory
-- Your code should use the js extension
-- Your code will be tested using the Jest Testing Framework
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Your code should use the `js` extension
+- Your code will be tested using the `Jest` Testing Framework
 - Your code will be analyzed using the linter ESLint along with specific rules that we’ll provide
 - All of your functions must be exported
 
@@ -155,10 +155,10 @@ module.exports = {
 ```
 
 Finally…
-Don’t forget to run npm install from the terminal of your project folder to install all necessary project dependencies.
+Don’t forget to run `npm install` from the terminal of your project folder to install all necessary project dependencies.
 
 ### Response Data Format
-#### uploadPhoto returns a response with the format
+**uploadPhoto** returns a response with the format
 ```
 {
   status: 200,
@@ -166,7 +166,7 @@ Don’t forget to run npm install from the terminal of your project folder to in
 }
 ```
 
-#### createUser returns a response with the format
+**createUser** returns a response with the format
 ```
 {
   firstName: 'Guillaume',
