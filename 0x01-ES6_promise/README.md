@@ -1,4 +1,5 @@
 # ES6 Promises
+![es6Promise](https://github.com/alchemistlowkey/alx-backend-javascript/assets/46524038/8853f1dd-8a38-48bb-83e5-b8b4cf90562a)
 
 ## Resources
 ### Read or watch:
