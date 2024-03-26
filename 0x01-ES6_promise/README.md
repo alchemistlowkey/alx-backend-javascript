@@ -3,47 +3,34 @@
 
 ## Resources
 ### Read or watch:
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-
-https://web.dev/articles/promises
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw
+- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [JavaScript Promise: An introduction](https://web.dev/articles/promises)
+- [Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
+- [Async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+- [Throw / Try](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 
 ## Learning Objectives
-
-Promises (how, why, and what)
-How to use the then, resolve, catch methods
-How to use every method of the Promise object
-Throw / Try
-The await operator
-How to use an async function
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
+- Promises (how, why, and what)
+- How to use the `then, resolve, catch` methods
+- How to use every method of the Promise object
+- Throw / Try
+- The await operator
+- How to use an `async` function
 
 ## Requirements
 General
-
-All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
-
-Allowed editors: vi, vim, emacs, Visual Studio Code
-
-All your files should end with a new line
-
-A README.md file, at the root of the folder of the project, is mandatory
-
-Your code should use the js extension
-
-Your code will be tested using the Jest Testing Framework
-
-Your code will be analyzed using the linter ESLint along with specific rules that we’ll provide
-
-All of your functions must be exported
+- All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
+- Allowed editors: vi, vim, emacs, Visual Studio Code
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project, is mandatory
+- Your code should use the js extension
+- Your code will be tested using the Jest Testing Framework
+- Your code will be analyzed using the linter ESLint along with specific rules that we’ll provide
+- All of your functions must be exported
 
 ## Setup
-Install NodeJS 12.11.x
+### Install NodeJS 12.11.x
 (in your home directory):
 
 ```
@@ -60,7 +47,7 @@ nodejs -v
 npm -v
 ```
 
-## Install Jest, Babel, and ESLint
+### Install Jest, Babel, and ESLint
 in your project directory, install Jest, Babel and ESList by using the supplied package.json and run npm install.
 
 ## Configuration files
