@@ -1,4 +1,5 @@
 # ES6 Classes
+![es6Classes](https://github.com/alchemistlowkey/alx-backend-javascript/assets/46524038/c3380171-c064-48ad-8d3a-71810de954dd)
 
 ## Resources
 - [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
