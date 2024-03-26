@@ -1,10 +1,12 @@
 # Typescript
+![es6Typescript](https://github.com/alchemistlowkey/alx-backend-javascript/assets/46524038/969f78ba-3d50-4796-a2ad-b2b782411ba8)
 
 ## Resources
 - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
 ## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 - Basic types in Typescript
 - Interfaces, Classes, and functions
 - How to work with the DOM and Typescript
@@ -16,7 +18,7 @@
 
 ## Requirements
 - All the files will be transpiled on Ubuntu 18.04 LTS
-- Allowed editors: vi, vim, emacs, Visual Studio Code
+- Allowed editors: `vi, vim, emacs, Visual Studio Code`
 - All the files should end with a new line
 - A README.md file, at the root of the folder of the project, is mandatory
 - Your code should use the ts extension when possible
