@@ -1,4 +1,6 @@
 # ES6 Basics
+![es6basic](https://github.com/alchemistlowkey/alx-backend-javascript/assets/46524038/021d01db-c2d2-4fd1-b36d-0d77db8926e2)
+
 ## Concepts
 For this project, we expect you to look at these concepts:
 
