@@ -1,4 +1,5 @@
 # NodeJS Basics
+![NodeJS_basics](https://github.com/alchemistlowkey/alx-backend-javascript/assets/46524038/324ea1b2-037c-4ce9-9258-1da3c367b9e9)
 
 ## Resources
 #### Read or watch:
