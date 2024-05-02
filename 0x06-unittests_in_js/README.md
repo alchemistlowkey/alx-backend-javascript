@@ -1,4 +1,5 @@
 # Unittests in JS
+![unittest_in_javascript](https://github.com/alchemistlowkey/alx-backend-javascript/assets/46524038/8710d553-9733-4010-b198-fd26b451d86b)
 
 ## Resources
 #### Read or watch:
