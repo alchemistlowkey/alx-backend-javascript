@@ -80,7 +80,7 @@ in your project directory, install Jest, Babel and ESList by using the supplied 
 ## Configuration files
 Add the files below to your project directory
 
-`package.json`
+#### `package.json`
 <details>
   <summary>Click to show/hide file contents</summary>
 
