@@ -49,8 +49,11 @@ Tommy,Schoul,32,SWE
 Katie,Shirou,21,CS
 ```
 
-#### package.json
-```
+#### `package.json`
+<details>
+  <summary>Click to show/hide file contents</summary>
+
+```js
 {
   "name": "node_js_basics",
   "version": "1.0.0",
@@ -83,9 +86,13 @@ Katie,Shirou,21,CS
   }
 }
 ```
+</details>
 
-#### babel.config.js
-```
+#### `babel.config.js`
+<details>
+  <summary>Click to show/hide file contents</summary>
+
+```js
 module.exports = {
   presets: [
     [
@@ -99,9 +106,13 @@ module.exports = {
   ],
 };
 ```
+</details>
 
-#### .eslintrc.js
-```
+#### `.eslintrc.js`
+<details>
+  <summary>Click to show/hide file contents</summary>
+
+```js
 module.exports = {
   env: {
     browser: false,
@@ -140,6 +151,7 @@ module.exports = {
   ]
 };
 ```
+</details>
 
 #### and…
 Don’t forget to run `$ npm install` when you have the `package.json`
