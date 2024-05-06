@@ -18,9 +18,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Requirements
 - All the files will be transpiled on Ubuntu 18.04 LTS
-- Allowed editors: `vi, vim, emacs, Visual Studio Code`
+- Allowed editors: `vi`, `vim`, `emacs`, `Visual Studio Code`
 - All the files should end with a new line
-- A README.md file, at the root of the folder of the project, is mandatory
+- A `README.md` file, at the root of the folder of the project, is mandatory
 - Your code should use the ts extension when possible
 - Your TS scripts will be checked with jest (version 24.9.\* )
 - The Typescript compiler should not show any warning or error when compiling your code
@@ -28,8 +28,11 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ## Configuration files
 Add the files below to your project directory
 
-### package.json
-```
+### `package.json`
+<details>
+  <summary>Click to show/hide file contents</summary>
+
+```js
 {
   "name": "typescript_dependencies",
   "version": "1.0.0",
@@ -63,9 +66,13 @@ Add the files below to your project directory
   }
 }
 ```
+</details>
 
-### tsconfig.json
-```
+### `tsconfig.json`
+<details>
+  <summary>Click to show/hide file contents</summary>
+
+```js
 {
   "compilerOptions": {
     "outDir": "./dist/",
@@ -79,9 +86,13 @@ Add the files below to your project directory
   }
 }
 ```
+</details>
 
-### .eslintrc.js
-```
+### `.eslintrc.js`
+<details>
+  <summary>Click to show/hide file contents</summary>
+
+```js
 module.exports =  {
   parser:  '@typescript-eslint/parser',
   extends:  [
@@ -95,9 +106,13 @@ module.exports =  {
   },
 };
 ```
+</details>
 
-### webpack.config.js
-```
+### `webpack.config.js`
+<details>
+  <summary>Click to show/hide file contents</summary>
+
+```js
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -136,3 +151,4 @@ module.exports = {
   }
 };
 ```
+</details>
