@@ -108,7 +108,7 @@ Add the files below to your project directory
   
 </details>
 
-`babel.config.js`
+#### `babel.config.js`
 <details>
   <summary>Click to show/hide file contents</summary>
 
@@ -126,10 +126,9 @@ module.exports = {
   ],
 };
 ```
-  
 </details>
 
-`.eslintrc.js`
+#### `.eslintrc.js`
 <details>
   <summary>Click to show/hide file contents</summary>
 
@@ -170,7 +169,6 @@ module.exports = {
   ]
 };
 ```
-  
 </details>
 
 Finally…
