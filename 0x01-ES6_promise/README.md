@@ -53,9 +53,11 @@ in your project directory, install Jest, Babel and ESList by using the supplied 
 ## Configuration files
 Add the files below to your project directory
 
-### package.json
+### `package.json`
+<details>
+  <summary>Click to show/hide file contents</summary>
 
-```
+```js
 {
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
@@ -75,11 +77,14 @@ Add the files below to your project directory
     "jest": "^24.9.0"
   }
 }
-```
+```  
+</details>
 
-### babel.config.js
+### `babel.config.js`
+<details>
+  <summary>Click to show/hide file contents</summary>
 
-```
+```js
 module.exports = {
   presets: [
     [
@@ -92,12 +97,15 @@ module.exports = {
     ],
   ],
 };
-```
+```  
+</details>
 
-### utils.js
+### `utils.js`
 Use when you get to tasks requiring uploadPhoto and createUser.
+<details>
+  <summary>Click to show/hide file contents</summary>
 
-```
+```js
 export function uploadPhoto() {
   return Promise.resolve({
     status: 200,
@@ -113,10 +121,13 @@ export function createUser() {
   });
 }
 ```
+</details>
 
-### .eslintrc.js
+### `.eslintrc.js`
+<details>
+  <summary>Click to show/hide file contents</summary>
 
-```
+```js
 module.exports = {
   env: {
     browser: false,
@@ -153,6 +164,7 @@ module.exports = {
   ]
 };
 ```
+</details>
 
 Finally…
 Don’t forget to run `npm install` from the terminal of your project folder to install all necessary project dependencies.
